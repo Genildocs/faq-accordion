@@ -3,7 +3,6 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 export default function Acc() {
@@ -11,10 +10,10 @@ export default function Acc() {
     <div>
       <Accordion className="tw-w-[500px]">
         <AccordionSummary
-          expandIcon={<ArrowDownwardIcon />}
+          expandIcon={<ArrowDropDownIcon />}
           aria-controls="panel1-content"
           id="panel1-header">
-          <Typography>
+          <Typography className="tw-font-bold">
             What is Frontend Mentor, and how will it help me?
           </Typography>
         </AccordionSummary>
@@ -24,7 +23,6 @@ export default function Acc() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      
     </div>
   );
 }
