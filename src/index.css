@@ -7,3 +7,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: hsl(275, 100%, 97%);
+  background-image: url("./assets/background-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.css-1086bdv-MuiPaper-root-MuiAccordion-root::before {
+  position: static !important;
+}
+
+.description {
+  opacity: 0.7;
+}
